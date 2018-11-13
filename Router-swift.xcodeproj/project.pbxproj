@@ -12,6 +12,7 @@
 		E2F94B8421995AD300809C6D /* URLConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F94B8321995AD300809C6D /* URLConnector.swift */; };
 		E2F94B8621995B6000809C6D /* HTTPConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F94B8521995B6000809C6D /* HTTPConnector.swift */; };
 		E2F94B8821995BBC00809C6D /* NativeConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F94B8721995BBC00809C6D /* NativeConnector.swift */; };
+		E2F94B8A21996F0800809C6D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F94B8921996F0800809C6D /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		E2F94B8321995AD300809C6D /* URLConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConnector.swift; sourceTree = "<group>"; };
 		E2F94B8521995B6000809C6D /* HTTPConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnector.swift; sourceTree = "<group>"; };
 		E2F94B8721995BBC00809C6D /* NativeConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeConnector.swift; sourceTree = "<group>"; };
+		E2F94B8921996F0800809C6D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				E2F94B80219951AC00809C6D /* Router */,
 				E2F94B792199518B00809C6D /* main.swift */,
+				E2F94B8921996F0800809C6D /* WebViewController.swift */,
 			);
 			path = "Router-swift";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F94B82219951BB00809C6D /* Router.swift in Sources */,
+				E2F94B8A21996F0800809C6D /* WebViewController.swift in Sources */,
 				E2F94B8621995B6000809C6D /* HTTPConnector.swift in Sources */,
 				E2F94B8821995BBC00809C6D /* NativeConnector.swift in Sources */,
 				E2F94B7A2199518B00809C6D /* main.swift in Sources */,

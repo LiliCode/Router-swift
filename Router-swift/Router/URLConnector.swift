@@ -9,6 +9,6 @@
 import Foundation
 
 protocol URLConnector {
-    func willPerformURL(URL: NSURL) -> Bool
-    func perform(URL: NSURL, error: Error) -> Any?
+    func willPerformURL(URL: NSURL?) -> Bool
+    func perform(URL: NSURL?, error: Error?) -> Any?
 }

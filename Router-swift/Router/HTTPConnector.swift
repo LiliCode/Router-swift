@@ -10,11 +10,12 @@ import Cocoa
 
 class HTTPConnector: NSObject, URLConnector {
     
-    func willPerformURL(URL: NSURL) -> Bool {
+    func willPerformURL(URL: NSURL?) -> Bool {
         return true
     }
     
-    func perform(URL: NSURL, error: Error) -> Any? {
+    func perform(URL: NSURL?, error: Error?) -> Any? {
+        
         return nil
     }
 }

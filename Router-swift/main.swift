@@ -10,8 +10,9 @@ import Foundation
 
 // 创建router 和 连接器
 let router: Router = Router.sharedRouter()
-let httpConnector = HTTPConnector()
 let nativeConnector = NativeConnector()
+let httpConnector = HTTPConnector()
+
 // 注册connector
 router.register(Connector: httpConnector, forScheme: "http")
 router.register(Connector: httpConnector, forScheme: "https")
